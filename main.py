@@ -14,7 +14,7 @@ def help_function(update, context):
     /start : Starts up the bot
     /help : Help topics
     /about : About text
-    /askpython : Go to AskPython Offical Website
+    /askpython : Go to AskPython Offical Websit
     /custom : Other custom commands 
  
     """
