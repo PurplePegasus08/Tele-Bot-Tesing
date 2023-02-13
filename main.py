@@ -14,17 +14,17 @@ def help_function(update, context):
     /start : Starts up the bot
     /help : Help topics
     /about : About text
-    /askpython : Go to AskPython Offical Websit
+    /Links : Go to my links
     /custom : Other custom commands 
  
     """
     )
  
 def about_function(update, context):
-    update.message.reply_text("I am a bot and also a Python Genie.")
+    update.message.reply_text("I am a sample bot.")
  
-def ask_python_function(update, context):
-    update.message.reply_text("AskPython Website: https://www.askpython.com/")
+def Links_function(update, context):
+    update.message.reply_text("https://linktr.ee/pegasus08/")
  
 def custom_function(update, context):
     update.message.reply_text("Some other custom reply")
@@ -43,7 +43,7 @@ my_dispatcher = updater.dispatcher
 my_dispatcher.add_handler(CommandHandler("start", start_function))
 my_dispatcher.add_handler(CommandHandler("help", help_function))
 my_dispatcher.add_handler(CommandHandler("about", about_function))
-my_dispatcher.add_handler(CommandHandler("askpython", ask_python_function))
+my_dispatcher.add_handler(CommandHandler("Links", Links_function))
 my_dispatcher.add_handler(CommandHandler("custom", custom_function))
  
 # Handing Incoming Messages
