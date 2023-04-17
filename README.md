@@ -1,3 +1,1 @@
-# Testing-Bot 
-
-I am testing my telegram bot.
+This is a simple Telegram bot that is currently in testing phase for personal use. The bot has been developed to assist with various tasks such as answering basic queries. It has been designed to be user-friendly and easy to interact with, making it ideal for personal use.The code for the bot is available on GitHub, and any feedback or suggestions for improvement are welcome.
